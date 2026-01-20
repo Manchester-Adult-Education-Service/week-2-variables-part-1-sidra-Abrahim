@@ -186,7 +186,7 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 name_new = input("What is your name?\n")
-age_new = input("What is your age?\n")
+age_new = int(input("What is your age?\n"))
 birthday_new =input("What is your Date of Birth?\n")
 postcode_new = input("What is your postcode\n")
 
