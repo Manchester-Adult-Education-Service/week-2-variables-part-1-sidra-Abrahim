@@ -140,7 +140,9 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
-
+age = int(input("Please Enter your age\n"))
+age += 1
+print(f"You will be {age} years old next year!")
 
 # Extension 3: Case Formatting
 # -------------------------------------------
@@ -153,10 +155,10 @@ print("\n-------------------------------------------\n"
 #
 # EXAMPLE:
 # name = "alice"
-# print(name.capitalize())
+#print(name.capitalize())
 
 # Write your code below:
-
+print(food.capitalize())
 
 # -------------------------------------------
 # SAVE YOUR PROGRESS
