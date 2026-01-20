@@ -185,7 +185,18 @@ print("\n-------------------------------------------\n"
 #    Otherwise, print "Account type: Junior".
 
 # Write your code below:
+name_new = input("What is your name?\n")
+age_new = input("What is your age?\n")
+birthday_new =input("What is your Date of Birth?\n")
+postcode_new = input("What is your postcode\n")
 
+print(f"Name: {name_new}\nAge: {age_new}\n")
+print(f"Date of Birth: {birthday_new}\nPostcode: {postcode_new}")
+
+if age_new > 18:
+    print ("Account type: Adult")
+else: 
+    print("Account type: Junior")
 
 # -------------------------------------------
 # FINAL SUBMISSION
