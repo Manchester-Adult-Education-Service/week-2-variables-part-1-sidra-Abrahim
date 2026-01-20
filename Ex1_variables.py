@@ -41,6 +41,10 @@ print("-------------------------------------------\n"
 # print(f"My favourite colour is {colour}")
 
 # Write your code below:
+name = "Alice"
+age = 25
+food = "pizza"
+print(f"Hello, {name}!")
 
 
 # -------------------------------------------
@@ -63,7 +67,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
-
+print(f"{name} is {age} years old.\n")
+print(f"In 5 years, {name} will be {age+5}.\n")
+print(f"{name} really likes {food}.")
 
 # -------------------------------------------
 # Task 3: The Power of Refactoring
@@ -78,7 +84,13 @@ print("\n-------------------------------------------\n"
 # 3. Print the same 4 sentences as above, but for Bob.
 
 # Write your code below:
+name2 = "Bob"
+age2 = 30
+food2 = "Fish and Chips"
 
+print(f"{name2} is {age2} years old.\n")
+print(f"In 5 years, {name2} will be {age2+5}.\n")
+print(f"{name2} really likes {food2}")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
