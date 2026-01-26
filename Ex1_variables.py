@@ -41,6 +41,10 @@ print("-------------------------------------------\n"
 # print(f"My favourite colour is {colour}")
 
 # Write your code below:
+name = "Alice"
+age = 25
+food = "pizza"
+print(f"Hello, {name}!")
 
 
 # -------------------------------------------
@@ -63,7 +67,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
-
+print(f"{name} is {age} years old.\n")
+print(f"In 5 years, {name} will be {age+5}.\n")
+print(f"{name} really likes {food}.")
 
 # -------------------------------------------
 # Task 3: The Power of Refactoring
@@ -78,7 +84,13 @@ print("\n-------------------------------------------\n"
 # 3. Print the same 4 sentences as above, but for Bob.
 
 # Write your code below:
+name2 = "Bob"
+age2 = 30
+food2 = "Fish and Chips"
 
+print(f"{name2} is {age2} years old.\n")
+print(f"In 5 years, {name2} will be {age2+5}.\n")
+print(f"{name2} really likes {food2}")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
@@ -115,7 +127,8 @@ print("\n-------------------------------------------\n"
 # print(f"{city} sounds like a lovely place!")
 
 # Write your code below:
-
+username = input("Please Enter your name\n")
+print(f"------Welcome {username.capitalize()}!---------")
 
 # Extension 2: Integer Conversion
 # -------------------------------------------
@@ -128,7 +141,9 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
-
+age = int(input("Please Enter your age\n"))
+age += 1
+print(f"You will be {age} years old next year!")
 
 # Extension 3: Case Formatting
 # -------------------------------------------
@@ -141,10 +156,10 @@ print("\n-------------------------------------------\n"
 #
 # EXAMPLE:
 # name = "alice"
-# print(name.capitalize())
+#print(name.capitalize())
 
 # Write your code below:
-
+print(food.upper())
 
 # -------------------------------------------
 # SAVE YOUR PROGRESS
@@ -172,7 +187,21 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+name_new = input("What is your name?\n")
+age_new = int(input("What is your age?\n"))
+birthday_new =input("What is your Date of Birth?\n")
+postcode_new = input("What is your postcode\n")
 
+print("\n------------Portfolio------------\n")
+print(f"\nName: {name_new}\nAge: {age_new}")
+print(f"Date of Birth: {birthday_new}\nPostcode: {postcode_new}")
+
+if age_new > 18:
+    print ("\nAccount type: Adult")
+else: 
+    print("\nAccount type: Junior")
+
+print("\n---------------------------------\n")
 # -------------------------------------------
 # FINAL SUBMISSION
 # -------------------------------------------
