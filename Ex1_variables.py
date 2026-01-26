@@ -127,7 +127,8 @@ print("\n-------------------------------------------\n"
 # print(f"{city} sounds like a lovely place!")
 
 # Write your code below:
-
+username = input("Please Enter your name\n")
+print(f"------Welcome {username.capitalize()}!---------")
 
 # Extension 2: Integer Conversion
 # -------------------------------------------
@@ -158,7 +159,7 @@ print("\n-------------------------------------------\n"
 #print(name.capitalize())
 
 # Write your code below:
-print(food.capitalize())
+print(food.upper())
 
 # -------------------------------------------
 # SAVE YOUR PROGRESS
